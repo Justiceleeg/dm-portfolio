@@ -1,0 +1,37 @@
+.skills-container{
+    padding: 2% 7% 2% 7%;
+    font-weight: 500;
+}
+.icon-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+
+    margin-top: 4%;
+}
+.icon-container{
+    display: inline-block;
+    width: 7vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-name{
+    text-align: center;
+    font-size: .8vw;
+
+    padding-top: 5px;
+    visibility: hidden;
+}
+
+.icon-container:hover > .icon-name {
+    visibility: visible;
+}
+
+.icon{
+    width: 75%;    
+}

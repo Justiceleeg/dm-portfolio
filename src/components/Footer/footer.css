@@ -1,0 +1,30 @@
+.footer-container{
+    height: 55px;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-top: 2px solid black;
+    padding: 0 2% 0 2%;
+    color: black;
+
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-side{
+    height: 100%;
+    width: 7%;
+
+    font-size: 24px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-link{
+    font-size: 24px;
+}

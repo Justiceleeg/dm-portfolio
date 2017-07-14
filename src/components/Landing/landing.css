@@ -1,0 +1,33 @@
+.landing-container{
+    background-image: url("./../../imgs/portfolio-back2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 52px;
+    
+    height: 100vh;
+    width: 100%;
+
+    /*text-transform: uppercase;*/
+    font-weight: 300;
+}
+
+.landing-contents{
+    margin-top: 13%;
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.landing-name{
+    font-size: 4vw;
+}
+.landing-title{
+    margin-top: 1%;
+}
