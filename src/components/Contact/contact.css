@@ -1,4 +1,46 @@
 .contact-container{
-    padding: 2%;
+    padding: 2% 7% 2% 7%;
     font-weight: 500;
+}
+.contacts{
+    margin-top: 4%;
+    display: flex;    
+}
+.contact-box {
+    width: 25%;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: 300;
+    
+}
+.contact-logo{
+    width: 100%;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.linkedin-link{
+    font-size: 5vw;
+}
+.contact-name{
+    text-align: center;
+    font-size: 1.1vw;
+    visibility: hidden;
+}
+
+.contact-box:hover > .contact-name{
+    visibility: visible;
+}
+
+.contact-username{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.4vw;
+}
+.discord{
+    width:5vw;
+    filter: brightness(0%);
 }
