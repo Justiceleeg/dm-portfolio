@@ -1,4 +1,33 @@
 .projects-container{
-    padding: 2%;
+    padding: 2% 7% 2% 7%;
     font-weight: 500;
+}
+.project-box{
+    width: 100%;
+    margin-top: 4%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.project-img{
+    width: 100%;
+}
+.project-img-tag{
+    width: 50%;
+    box-shadow: 0px 2px 6px gray;    
+}
+.project-info{
+    width: 45%;
+    font-weight: 300;
+    font-size: 1.3vw;
+    line-height: 2vw;
+}
+.project-info, a{
+    color:black;
+}
+
+.underlined{
+    text-decoration: underline;
 }
