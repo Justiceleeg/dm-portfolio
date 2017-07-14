@@ -42,3 +42,8 @@
     display: inline-block;
     margin: 0 1vw 0 1vw;
 }
+.a-tag{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -6,7 +6,7 @@ export default class Projects extends Component {
     
     render() {
         return (
-            <div className="projects-container">
+            <div id="portfolio" className="projects-container">
                 <div className="projects-contents">
                     <div className="title">Portfolio</div>
                 </div>

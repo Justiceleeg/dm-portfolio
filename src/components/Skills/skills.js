@@ -24,7 +24,7 @@ export default class Skills extends Component {
     
     render() {
         return (
-            <div className="skills-container">
+            <div id="experience" className="skills-container">
                 <div className="skills-contents">
                     <div className="title">Experience</div>
                     <div className="icon-row">
