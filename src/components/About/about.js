@@ -40,7 +40,7 @@ export default class About extends Component {
                     { dogPic() }
                 </div>
                 <div className="about-text-container">
-                    <p className="about-text">I'm Justice Perez White. I graduated from Rice University in 2015 with a B.S. in Mechanical Engineering. I worked in Healthcare IT and Quality Engineering before realizing my true passion for web development. To accelerate my forray into the industry I recently graduated from <a className="about-text underline" target="_blank" href="https://devmountain.com/">DevMountain</a>, an industry-leading coding bootcamp.</p>
+                    <p className="about-text">I'm Justice Perez White. I graduated from Rice University in 2015 with a B.S. in Mechanical Engineering. I worked in Healthcare IT and Quality Engineering before realizing my true passion for web development. To accelerate my foray into the industry I recently graduated from <a className="about-text underline" target="_blank" href="https://devmountain.com/">DevMountain</a>, an industry-leading coding bootcamp.</p>
                     <br/>
                     <p className="about-text">I'm excited to continue problem solving and learning in this constantly evolving field.</p>
                     <br/>
