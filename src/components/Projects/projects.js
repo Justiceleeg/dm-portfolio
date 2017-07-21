@@ -22,7 +22,7 @@ export default class Projects extends Component {
                         </div>
                     </div>
                     <div className="project-box">
-                        <img className="project-img project-img-tag" src={fiftyClone} alt="cardiac website"/>
+                        <a target="_blank" className="project-img-tag" href="http://fiftyclone.justicepwhite.com/"><img className="project-img" src={fiftyClone} alt="cardiac website"/></a>
                         <div className="project-info">
                             <span className="underlined">Site Clone - Fifty/Fifty Bottles</span>
                                 <br/>
