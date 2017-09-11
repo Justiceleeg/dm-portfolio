@@ -32,7 +32,7 @@ export default class Contact extends Component {
                                     <i className="fa fa-github-square" aria-hidden="true"></i>
                                 </a>
                             </div>
-                            <div className="contact-name">Slack</div>
+                            <div className="contact-name">Github</div>
                             <div className="contact-username">@Justiceleeg</div>
                         </div>
                     </div>
