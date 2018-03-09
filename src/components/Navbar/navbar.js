@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.css';
 
-import resumePDF from './../../imgs/JusticePerezWhite_Resume.pdf';
+import resumePDF from './../../imgs/JusticePerezWhite_HDResume.pdf';
 
 const Navbar = () => {
 
