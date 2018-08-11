@@ -12,7 +12,7 @@ export default class Projects extends Component {
                 <div className="projects-contents">
                     <div className="title">Portfolio</div>
                     <div className="project-box">
-                        <a target="_blank" className="project-img-tag" href="http://cardiac.justicepwhite.com/"><img className="project-img" src={cardiac} alt="cardiac website"/></a>
+                        <a target="_blank" rel="noopener noreferrer" className="project-img-tag" href="http://cardiac.justicepwhite.com/"><img className="project-img" src={cardiac} alt="cardiac website"/></a>
                         <div className="project-info">
                             <span className="underlined">Cardiac - Nutrition Influenced Game</span>
                             <br/>
@@ -22,7 +22,7 @@ export default class Projects extends Component {
                         </div>
                     </div>
                     <div className="project-box">
-                        <a target="_blank" className="project-img-tag" href="http://fiftyclone.justicepwhite.com/"><img className="project-img" src={fiftyClone} alt="cardiac website"/></a>
+                        <a target="_blank" rel="noopener noreferrer" className="project-img-tag" href="http://fiftyclone.justicepwhite.com/"><img className="project-img" src={fiftyClone} alt="cardiac website"/></a>
                         <div className="project-info">
                             <span className="underlined">Site Clone - Fifty/Fifty Bottles</span>
                                 <br/>

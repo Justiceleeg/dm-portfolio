@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 
 import './contact.css';
 
-import discord from './../../imgs/discord.png';
-
 export default class Contact extends Component {
     
     render() {
@@ -13,14 +11,14 @@ export default class Contact extends Component {
                     <div className="title">Contact</div>
                     <div className="contacts">
                         <div className="contact-box">
-                            <div className="contact-logo"><a target="_blank" className="linkedin-link" href="mailto:justicepwhite@gmail.com">
+                            <div className="contact-logo"><a target="_blank" rel="noopener noreferrer" className="linkedin-link" href="mailto:justicepwhite@gmail.com">
                                 <i className="fa fa-envelope" aria-hidden="true"></i></a>
                                 </div>
                             <div className="contact-name">Email</div>
                             <div className="contact-username">justicepwhite<br/>@gmail.com</div>
                         </div>
                         <div className="contact-box">
-                            <div className="contact-logo"><a target="_blank" className="linkedin-link" href="https://www.linkedin.com/in/justiceperezwhite/">
+                            <div className="contact-logo"><a target="_blank" rel="noopener noreferrer" className="linkedin-link" href="https://www.linkedin.com/in/justiceperezwhite/">
                                  <i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
                             </div>
                             <div className="contact-name">LinkedIn</div>
@@ -28,7 +26,7 @@ export default class Contact extends Component {
                         </div>
                         <div className="contact-box">
                             <div className="contact-logo">
-                                <a target="_blank" className="linkedin-link" href="https://github.com/Justiceleeg/">
+                                <a target="_blank" rel="noopener noreferrer" className="linkedin-link" href="https://github.com/Justiceleeg/">
                                     <i className="fa fa-github-square" aria-hidden="true"></i>
                                 </a>
                             </div>

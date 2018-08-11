@@ -7,18 +7,21 @@ import angularjs from './../../imgs/skill_logos/angularjs.svg';
 import massivejs from './../../imgs/skill_logos/massivejs.png';
 import expressjs from './../../imgs/skill_logos/express.png';
 import javascript from './../../imgs/skill_logos/javascript.svg';
-import typescript from './../../imgs/skill_logos/typescript.svg';
+// import typescript from './../../imgs/skill_logos/typescript.svg';
 import postgresql from './../../imgs/skill_logos/postgresql.svg';
 import heroku from './../../imgs/skill_logos/heroku.svg';
 import github from './../../imgs/skill_logos/github.svg';
 import git from './../../imgs/skill_logos/git.svg';
-import gimp from './../../imgs/skill_logos/gimp.svg';
+// import gimp from './../../imgs/skill_logos/gimp.svg';
 import css from './../../imgs/skill_logos/css3.svg';
 import html from './../../imgs/skill_logos/html5.svg';
-import gulp from './../../imgs/skill_logos/gulp.svg';
+// import gulp from './../../imgs/skill_logos/gulp.svg';
 import sass from './../../imgs/skill_logos/sass.svg';
 import react from './../../imgs/skill_logos/react.svg';
 import redux from './../../imgs/skill_logos/redux.png';
+import python from './../../imgs/skill_logos/python.png'
+import webpack from './../../imgs/skill_logos/webpack.png'
+import graphql from './../../imgs/skill_logos/graphql.png'
 
 export default class Skills extends Component {
     
@@ -53,8 +56,8 @@ export default class Skills extends Component {
                             <p className="icon-name">Angular JS</p>
                         </div>
                         <div className="icon-container">
-                            <img className="icon "src={typescript} alt="typescript"/>
-                            <p className="icon-name">Typescript</p>
+                            <img className="icon "src={python} alt="python"/>
+                            <p className="icon-name">Python</p>
                         </div>
                         <div className="icon-container">
                             <img className="icon "src={git} alt="git"/>
@@ -69,6 +72,10 @@ export default class Skills extends Component {
                         <div className="icon-container">
                             <img className="icon "src={nodejs} alt="nodejs"/>
                             <p className="icon-name">Node JS</p>
+                        </div>
+                        <div className="icon-container">
+                            <img className="icon "src={graphql} alt="graphql"/>
+                            <p className="icon-name">GraphQL</p>
                         </div>
                         <div className="icon-container">
                             <img className="icon "src={jquery} alt="jquery"/>
@@ -95,12 +102,8 @@ export default class Skills extends Component {
                             <p className="icon-name">Sass / Scss</p>
                         </div>
                         <div className="icon-container">
-                            <img className="icon "src={gulp} alt="gulp"/>
-                            <p className="icon-name">Gulp</p>
-                        </div>
-                        <div className="icon-container">
-                            <img className="icon "src={gimp} alt="gimp"/>
-                            <p className="icon-name">GIMP</p>
+                            <img className="icon "src={webpack} alt="webpack"/>
+                            <p className="icon-name">Webpack</p>
                         </div>
                     </div>
                 </div>

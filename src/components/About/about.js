@@ -40,9 +40,10 @@ export default class About extends Component {
                     { dogPic() }
                 </div>
                 <div className="about-text-container">
-                    <p className="about-text">I'm Justice Perez White. I graduated from Rice University in 2015 with a B.S. in Mechanical Engineering. I worked in Healthcare IT and Quality Engineering before realizing my true passion for web development. To accelerate my foray into the industry I recently graduated from <a className="about-text underline" target="_blank" href="https://devmountain.com/">DevMountain</a>, an industry-leading coding bootcamp.</p>
+                    <p className="about-text">I'm Justice Perez White, a 2015 graduate from Rice University with a B.S. in Mechanical Engineering, and
+                        I have a passion for programming solutions to complex problems.</p>
                     <br/>
-                    <p className="about-text">I'm excited to continue problem solving and learning in this constantly evolving field.</p>
+                    <p className="about-text">I'm excited to continue problem solving, learning, and contributing to diverse projects</p>
                     <br/>
                     <p className="about-text">Outside of work, you'll find me tinkering with code, reading a novel, or listening to NPR podcasts on long walks with my <span className="about-text underline" onClick={() => this.addDog()}>dog</span>.</p>
                 </div>

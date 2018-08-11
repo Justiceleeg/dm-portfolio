@@ -10,7 +10,7 @@ export default class Landing extends Component {
             <div className="landing-container">
                 <div className="landing-contents">
                     <div className="landing-name">Justice Perez White</div>
-                    <div className="landing-title">Web Developer</div>
+                    <div className="landing-title">Software Engineer</div>
                 </div>
             </div>
         )
