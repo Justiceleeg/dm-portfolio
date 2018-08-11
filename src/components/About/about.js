@@ -43,7 +43,7 @@ export default class About extends Component {
                     <p className="about-text">I'm Justice Perez White, a 2015 graduate from Rice University with a B.S. in Mechanical Engineering, and
                         I have a passion for programming solutions to complex problems.</p>
                     <br/>
-                    <p className="about-text">I'm excited to continue problem solving, learning, and contributing to diverse projects</p>
+                    <p className="about-text">I'm excited to continue problem solving, learning, and contributing to diverse projects.</p>
                     <br/>
                     <p className="about-text">Outside of work, you'll find me tinkering with code, reading a novel, or listening to NPR podcasts on long walks with my <span className="about-text underline" onClick={() => this.addDog()}>dog</span>.</p>
                 </div>
